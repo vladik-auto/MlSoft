@@ -5,7 +5,7 @@ from torchvision import datasets, models, transforms
 import os
 
 # Задаем пути к данным
-data_dir = "/home/robot/yolov7/data"
+data_dir = "/home/robot/MlSoft/yolov7/data"
 
 # Преобразования для тренировочных и валидационных данных
 data_transforms = {

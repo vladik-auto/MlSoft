@@ -5,10 +5,10 @@ import random
 
 # Определите пути к исходным и целевым данным
 source_dirs = {
-    "trainbad": "/home/robot/yolov7/trainbad",
-    "train": "/home/robot/yolov7/train"
+    "trainbad": "/home/robot/MlSoft/yolov7/trainbad",
+    "train": "/home/robot/MlSoft/yolov7/train"
 }
-target_root = "/home/robot/yolov7/data"
+target_root = "/home/robot/MlSoft/yolov7/data"
 target_dirs = {
     "train": os.path.join(target_root, "train"),
     "val": os.path.join(target_root, "val"),

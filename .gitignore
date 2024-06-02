@@ -1,0 +1,23 @@
+# Исключение данных
+data/
+dataset/
+trainbad/
+runs/
+# Исключение библиотек и окружений
+Miniconda3-py39_4.12.0-Linux-x86_64.sh
+miniconda3/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+ENV/
+env/
+venv/
+.env.*
+.venv.*
+# Исключение весов моделей и других больших файлов
+*.pt
+*.zip
+traced_model.pt
